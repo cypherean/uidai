@@ -7,3 +7,5 @@ OTP Entry static page bana diya. INput Textboxes nhi bane pls dekhlo :'(
 Icons ki BT ho rhi mujhe.
 
 QR wala Page bana diya. Bass QR nhi hai usme lekin woh view tag bana hai uske andar ayega
+
+Splash SCreen bana di. Usme Adhar ka logo nhi hai woh dalna hoga.
