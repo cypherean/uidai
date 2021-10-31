@@ -15,3 +15,5 @@ Fixed OTP Entering textbox.
 Start paga ban gya. Aadhar logo needed there
 
 App logos daal diye. Aadhar logo still needed.
+
+POS Splash Screen and Start Screen created. Splash screen mein Aadhar logo chahiye.
