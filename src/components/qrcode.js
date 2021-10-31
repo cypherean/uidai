@@ -8,6 +8,7 @@
 
 import React from 'react';
 import { Text, View } from 'react-native';
+import QRCode from 'react-native-qrcode-svg';
 
 const QRcode = () => {
   return (
@@ -40,7 +41,9 @@ const QRcode = () => {
             flex: 1,
             borderRadius: 12,
           }}>
-          <View style={{ flex: 360 }}></View>
+          <View style={{ flex: 360, justifyContent: 'center', alignItems: 'center'}}>
+            <QRCode value={'google.com'} size={200} />
+          </View>
           <View
             style={{ flex: 220, justifyContent: 'center', alignItems: 'center' }}>
             <Text style={{ fontSize: 20, color: 'black' }}>
