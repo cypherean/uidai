@@ -28,3 +28,6 @@ ans: mere mein icons kaam nhi kar rhe.
 TODO:
 login page.
 splash screen ke upar se bar hatana hai. -> color change nhi ho rha
+
+
+//Aadhar wale page par captcha daal diya hai. backend wala abhi rebel se aaya nhi. usme aap dekhlo kya aadhar, captcha aur txnid pass ho jayega ya nhi?
