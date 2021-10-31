@@ -47,7 +47,7 @@ const Home = () => {
           </View>
           <View
             style={{
-              flex: 300,
+              flex: 320,
               alignItems: 'center',
             }}>
             <Image source={require('../assets/biometric.png')} />
@@ -66,7 +66,8 @@ const Home = () => {
                 borderBottomWidth: 1,
                 backgroundColor: '#C1C1C1',
                 opacity: 0.5,
-                placeholder: '12-Digit AADHAR number / 16-Digit VID number',
+                color: "black",
+                fontSize: 20,
               }}
               placeholder="12-Digit AADHAR / 16-Digit VID"
               placeholderTextColor="black"
