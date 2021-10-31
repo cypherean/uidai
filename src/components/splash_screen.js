@@ -7,13 +7,13 @@
  */
 
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 
 const SplashScreen = () => {
   return (
     <View
       style={[
-        {flex: 1},
+        { flex: 1 },
         {
           // Try setting `flexDirection` to `"row"`.
           flexDirection: 'column',
@@ -25,20 +25,13 @@ const SplashScreen = () => {
           justifyContent: 'center',
         },
       ]}>
-      <View style={{flex: 3, alignItems: 'center', justifyContent: 'center'}}>
-        <View
-          style={{
-            width: 100,
-            height: 100,
-            borderRadius: 50,
-            backgroundColor: 'white',
-          }}
-        />
-        <Text style={{fontSize: 25, fontWeight: 'bold', color: 'white'}}>
-          App Name
+      <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center' }}>
+        <Image source={require('../assets/BigLogo.png')} />
+        <Text style={{ fontSize: 25, fontWeight: 'bold', color: 'white' }}>
+          Pramaan
         </Text>
       </View>
-      <View style={{flex: 1}}>
+      <View style={{ flex: 1 }}>
         <View
           style={{
             width: 500,
