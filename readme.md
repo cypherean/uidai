@@ -11,3 +11,5 @@ QR wala Page bana diya. Bass QR nhi hai usme lekin woh view tag bana hai uske an
 Splash SCreen bana di. Usme Adhar ka logo nhi hai woh dalna hoga.
 
 Fixed OTP Entering textbox.
+
+Start paga ban gya. Aadhar logo needed there
