@@ -20,10 +20,24 @@
  } from 'react-native';
  import { Icon } from 'react-native-elements'
  import { textAlign } from '@mui/system';
+ import axios from 'axios';
  
  
  
  const App = () => {
+   var base64enc = "";
+   var txnid = "";
+  function capgen = () => axios.get('http:/localhost:5000/captcha').then(resp => {
+    if(resp.data.status == "Success")
+    {
+    base64enc = resp.data.captchaBase64String;
+    txnid = resp.data.captchaTxnId;
+    }
+    else
+    {
+      //Error Alert daaldo yahan
+    }
+});
    return (
      <View style={[{ flex: 1 }, {
        // Try setting `flexDirection` to `"row"`.
