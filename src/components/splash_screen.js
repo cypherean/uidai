@@ -6,23 +6,21 @@
  * @flow strict-local
  */
 
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import {Text, View, Image} from 'react-native';
-import { Actions } from 'react-native-router-flux';
+import {Actions} from 'react-native-router-flux';
 
 const SplashScreen = () => {
   useEffect(() => {
-    setTimeout(
-      () => { showScreen(); },
-      2500
-    )
-    
-    }, [])
+    setTimeout(() => {
+      showScreen();
+    }, 100);
+  }, []);
 
   async function showScreen() {
-    console.log("try")
     Actions.home();
   }
+
   return (
     <View
       style={[
@@ -37,8 +35,7 @@ const SplashScreen = () => {
           alignItems: 'center',
           justifyContent: 'center',
         },
-      ]}
-      >
+      ]}>
       <View style={{flex: 3, alignItems: 'center', justifyContent: 'center'}}>
         <Image source={require('../assets/BigLogo.png')} />
         <Text style={{fontSize: 25, fontWeight: 'bold', color: 'white'}}>
@@ -55,9 +52,9 @@ const SplashScreen = () => {
             position: 'relative',
           }}>
           <View
-          style={{
-            paddingTop: 50
-          }}>
+            style={{
+              paddingTop: 50,
+            }}>
             <Image
               source={require('../assets/aadharLogo.png')}
               style={{
