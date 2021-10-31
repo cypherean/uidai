@@ -41,8 +41,8 @@ const QRcode = () => {
             flex: 1,
             borderRadius: 12,
           }}>
-          <View style={{ flex: 360, justifyContent: 'center', alignItems: 'center'}}>
-            <QRCode value={'google.com'} size={200} />
+          <View style={{ flex: 360, justifyContent: 'center', alignItems: 'center' }}>
+            <QRCode value={'"xmlId": "617eb2fabc0c0e6e6faab19a","pwd": "1455"'} size={200} />
           </View>
           <View
             style={{ flex: 220, justifyContent: 'center', alignItems: 'center' }}>
