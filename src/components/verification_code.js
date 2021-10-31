@@ -37,14 +37,14 @@ const About = () => {
               flex: 64,
               justifyContent: 'center',
             }}>
-            <Text
+            {/* <Text
               style={{
                 fontSize: 22,
                 paddingLeft: 18,
                 color: 'black',
               }}>
               Enter Verification Code
-            </Text>
+            </Text> */}
           </View>
           <View
             style={{

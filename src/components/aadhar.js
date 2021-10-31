@@ -36,14 +36,14 @@ const Home = () => {
               flex: 64,
               justifyContent: 'center',
             }}>
-            <Text
+            {/* <Text
               style={{
                 fontSize: 22,
                 paddingLeft: 18,
                 color: 'black',
               }}>
               Enter UIDAI/VID Number
-            </Text>
+            </Text> */}
           </View>
           <View
             style={{

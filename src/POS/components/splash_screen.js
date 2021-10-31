@@ -9,21 +9,22 @@
 import React, { useEffect } from 'react';
 import {Text, View, Image} from 'react-native';
 import { Actions } from 'react-native-router-flux';
-
+ 
 const SplashScreen = () => {
   useEffect(() => {
-    setTimeout(
-      () => { showScreen(); },
-      2500
-    )
-    
-    }, [])
-
+     setTimeout(
+       () => { showScreen(); },
+       2500
+     )
+     
+     }, [])
+ 
   async function showScreen() {
-    console.log("try")
-    Actions.home();
-  }
-  return (
+     console.log("try")
+     Actions.home();
+   }
+  
+   return (
     <View
       style={[
         {flex: 1},
@@ -37,12 +38,11 @@ const SplashScreen = () => {
           alignItems: 'center',
           justifyContent: 'center',
         },
-      ]}
-      >
+      ]}>
       <View style={{flex: 3, alignItems: 'center', justifyContent: 'center'}}>
         <Image source={require('../assets/BigLogo.png')} />
         <Text style={{fontSize: 25, fontWeight: 'bold', color: 'white'}}>
-          Pramaan
+          Pramaan POS
         </Text>
       </View>
       <View style={{flex: 1}}>
@@ -55,9 +55,9 @@ const SplashScreen = () => {
             position: 'relative',
           }}>
           <View
-          style={{
-            paddingTop: 50
-          }}>
+            style={{
+              paddingTop: 50,
+            }}>
             <Image
               source={require('../assets/aadharLogo.png')}
               style={{

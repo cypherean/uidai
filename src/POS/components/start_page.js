@@ -46,7 +46,7 @@ const start_page = () => {
             }}>
 
             <View style={{ flex: 80, alignItems: 'center', justifyContent: 'center' }}>
-              <Image source={require("../POS_assets/QRAuth.png")} />
+              <Image source={require("../assets/QRAuth.png")} />
             </View>
             <View style={{ flex: 20 }}>
               <Text style={{ fontSize: 20, color: 'black', alignSelf: 'center' }}>
