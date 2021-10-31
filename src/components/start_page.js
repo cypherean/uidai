@@ -32,7 +32,7 @@
        <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center' }}>
          <View style={{ flex: 20, flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
            <View style={{ flex: 20, padding: 10, }}>
-             <Image source={require('./Logo.png')} />
+             <Image source={require('../assets/Logo.png)} />
            </View>
            <View style={{ flex: 80 }}>
  
