@@ -23,6 +23,7 @@ cypher:
 aadhar logo done.
 splash screen for 2.5 sec. 
 back button(<-) kyu nhi aa rha topbar mein :') ===> bcoz of gestures?
+ans: mere mein icons kaam nhi kar rhe.
 
 TODO:
 login page.
